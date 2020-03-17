@@ -14,6 +14,8 @@
 		C881F14F24205C2A00E19C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C881F14E24205C2A00E19C55 /* Assets.xcassets */; };
 		C881F15224205C2A00E19C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C881F15024205C2A00E19C55 /* LaunchScreen.storyboard */; };
 		C881F15524205C2A00E19C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C881F15424205C2A00E19C55 /* main.m */; };
+		C881F15D24205D2C00E19C55 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C881F15C24205D2C00E19C55 /* TableViewController.m */; };
+		C881F16024205EE800E19C55 /* Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = C881F15F24205EE800E19C55 /* Colleague.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		C881F15124205C2A00E19C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C881F15324205C2A00E19C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C881F15424205C2A00E19C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C881F15B24205D2C00E19C55 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C881F15C24205D2C00E19C55 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C881F15E24205EE800E19C55 /* Colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colleague.h; sourceTree = "<group>"; };
+		C881F15F24205EE800E19C55 /* Colleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colleague.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				C881F15024205C2A00E19C55 /* LaunchScreen.storyboard */,
 				C881F15324205C2A00E19C55 /* Info.plist */,
 				C881F15424205C2A00E19C55 /* main.m */,
+				C881F15B24205D2C00E19C55 /* TableViewController.h */,
+				C881F15C24205D2C00E19C55 /* TableViewController.m */,
+				C881F15E24205EE800E19C55 /* Colleague.h */,
+				C881F15F24205EE800E19C55 /* Colleague.m */,
 			);
 			path = DetailedTableViewColleagues;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 				C881F14A24205C2500E19C55 /* ViewController.m in Sources */,
 				C881F14424205C2500E19C55 /* AppDelegate.m in Sources */,
 				C881F15524205C2A00E19C55 /* main.m in Sources */,
+				C881F16024205EE800E19C55 /* Colleague.m in Sources */,
+				C881F15D24205D2C00E19C55 /* TableViewController.m in Sources */,
 				C881F14724205C2500E19C55 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
